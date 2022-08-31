@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo {
+    margin: 0px 19px;
+}
+
+#logo img {
+    margin: 3px 2px;
+    width: 70px;
+    height: 50px;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+
+/* navigation bar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+
+}
+
+#navbar::before {
+    content: '';
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+#navbar ul li {
+    /* margin: 40px auto; */
+    list-style: none;
+    font-size: 1rem;
+    padding: 3px 10px;
+
+}
+
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 3px 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+
+#home::before {
+    content: '';
+    position: absolute;
+    background: url('../images/pexels-elevate-1267320.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 85%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.99; */
+}
+
+#home p {
+    font-size: 1rem;
+}
+
+.primary {
+    margin: 12px;
+    font-size: 3rem;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.primary:hover {
+    color: aliceblue;
+}
+
+.btn {
+    margin: 10px;
+    padding: 5px 20px;
+    color: brown;
+    border-color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+
+    color: whitesmoke;
+    border-color: aliceblue;
+    background-color: rgb(179, 130, 130);
+}
+
+#services img {
+
+    height: 110px;
+    width: 150px;
+}
+
+#services {
+    display: flex;
+}
+
+#services img {
+    display: block;
+    margin: auto;
+}
+
+#services .secondary {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+}
+
+.box1 p {
+    text-align: center;
+}
+
+.box1 {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+.heading {
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo1 .third{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+.box2 img{
+    width: 150px;
+    height: 124px;
+    padding: 0px 40px;
+}
+#logo1{
+    position: relative;
+    height: 250px;
+}
+#logo1::before{
+    content: '';
+    position: absolute;
+    background: url('../images/pexels-chan-walrus-958545.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#contact{
+    position: relative;
+    top:30px;
+    height: 600px;
+}
+#contact::before{
+    content: '';
+    position: absolute;
+    background: url('../images/pexels-chepté-cormani-1416530.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+    font-size: 2rem;
+}
+#box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box3 label{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    /* text-align: center; */
+    padding: 7px;
+}
+#box3 input, #box3 textarea{
+    width: 100%;
+    padding:0.3rem;
+    border-radius: 10px;
+}
+#box3 button{
+    display: block;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+#box3 button:hover{
+    color:antiquewhite;
+    background-color: black;
+}
+.footerend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: antiquewhite;
+}

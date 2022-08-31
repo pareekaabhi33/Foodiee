@@ -1,0 +1,23 @@
+/* navigation section */
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    height: 425px;
+}
+#home::before{
+    height:550px;
+}
+
+#services{
+    flex-direction: column;
+}
+#icons{
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+#logo1{
+    height: 734px;
+}
